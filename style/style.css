@@ -1,0 +1,123 @@
+:root{
+    --primary-pink:#C93B76;
+    --primary-black:#212936;
+    --primary-darkGray:#4D5562;
+    --primary-gray:#121826a6;
+    --primary-withe:#E5E7EB;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:0 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    height:100vh;
+}
+
+#lable__player{
+    height:500px;
+    width:350px;
+    border-radius:15px;
+    background:var(--primary-gray);
+    margin:200px auto !important;
+    padding:1%;
+}
+
+.lable__image{
+    width:100%;
+    height:65%;
+    background-image: url('../images/cover-1.png');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    transition: all 300ms;
+}
+
+.lable__title{
+    width:100%;
+    height:fit-content;
+    color:var(--primary-withe);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lable__singer{
+    width:100%;
+    height:fit-content;
+    color: var(--primary-darkGray);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    letter-spacing: 0 !important;
+}
+
+
+
+.lable__timer{
+    width:100%;
+    height: fit-content;
+    display:flex;
+    justify-content: space-between;
+    color:var(--primary-darkGray);
+    margin-top: 10px;
+}
+
+
+.lable__seek{
+    width:100%;
+    height:5px;
+    background: var(--primary-withe);
+    border-radius: 20px;
+    margin-top:10px;
+}
+
+
+.show__seek{
+    width:0%;
+    height:100%;
+    background: var(--primary-pink);
+    border-radius: 20px;
+}
+
+.lable__puase--play{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sec{
+    width:17%;
+    height:50px;
+    text-align: center;
+    padding-top: 4%;
+    margin: 0 10px !important;
+}
+
+.play__puase{
+    background: var(--primary-pink) !important;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    color:var(--primary-withe);
+    padding-top: 4%;
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.ic_p{
+    width: 50%;
+}
