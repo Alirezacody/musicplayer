@@ -14,7 +14,7 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const bgImage = document.querySelector('.lable__image');
 
-let url = '../music/lost-in-city-lights-145038.mp3';
+let url = 'https://alirezacody.github.io/musicplayer/music/lost-in-city-lights-145038.mp3';
 let audioElement = new Audio(url);
 let sec = 0;
 let intervalId;
